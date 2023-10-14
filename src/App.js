@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
 function App() {
+  const contentcol = document.querySelector(".contentcontainer");
+  const [theme, setTheme] = React.useState(0);
+
+  const handleSwitchTheme = () => {
+    setTheme(!theme);
+    if(!theme){
+      document.body.style.backgroundColor = "rgb(15, 16, 33)";
+    }
+    else{
+      document.body.style.backgroundColor = "rgb(209, 209, 209)";
+    } 
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="maincontainer">
+      <div className="headercontainer">
+        <div onClick={handleSwitchTheme} className="switchtheme">
+          <div className={`trigger${theme ? 'black' : ''}`}></div>
+        </div>
+      </div>
+      <div className={`contentcontainer${theme ? 'black' : ''}`}>
+      </div>
+      
     </div>
   );
 }
