@@ -1,4 +1,6 @@
 import React from 'react';
+import strawberry from './images/strawicon.svg'
+import icecream from './images/icecreamicon.svg'
 
 function App() {
   const [theme, setTheme] = React.useState(0);
@@ -17,6 +19,11 @@ function App() {
   return (
     <div className="maincontainer">
       <div className="headercontainer">
+        <div className='sidemenucontainer'>
+        <div></div>
+        <div></div>
+        <div></div>
+        </div>
         <p>Random text</p>
         <div onClick={handleSwitchTheme} className="switchtheme">
           <div className={`trigger${theme ? 'black' : ''}`}></div>
@@ -24,7 +31,12 @@ function App() {
       </div>
       <div className={`contentcontainer${theme ? 'black' : ''}`}>
         {arr.map(() => {
-          return <div className={`element${theme ? 'black' : ''}`}></div>
+          return (
+          <div className={`element${theme ? 'black' : ''}`}>
+            <img src = {strawberry}></img>
+            <p>Existence excuse finished might weddings dear style terms afraid sometimes. 
+              Properly hills forfeited perhaps years unaffected seems wondered can although. </p>
+          </div>)
         })}
       </div>
       

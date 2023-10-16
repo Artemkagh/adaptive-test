@@ -86,6 +86,29 @@
     margin: 40px;
     flex-basis: 25%;
     transition: 0.5s;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    img{
+      margin-top: 10px;
+      height: 50%;
+      width: 50%;
+      margin-left: 20px;
+    }
+
+    p{
+      width: 90%;
+      margin-top: 26px;
+      display: flex;
+      text-align: center;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      color: rgb(0, 9, 131);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+    }
+      
+
   }
 
   .elementblack{
@@ -99,6 +122,27 @@
     -webkit-box-shadow: 8px -3px 8px 0px rgba(0, 0, 0, 0.51);
     -moz-box-shadow: 8px -3px 8px 0px rgba(0, 0, 0, 0.51);
     box-shadow: 8px -3px 8px 0px rgba(0, 0, 0, 0.51);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+    img{
+      margin-top: 10px;
+      height: 50%;
+      width: 50%;
+      margin-left: 20px;
+    }
+
+    p{
+      width: 90%;
+      margin-top: 26px;
+      display: flex;
+      text-align: center;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      color: rgb(255, 224, 226);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+    }
   }
 
   .switchtheme{
@@ -113,8 +157,6 @@
     align-items: center;
     justify-content: space-between;
     
-  
-
     .trigger{
       height: 51px;
       width: 51px;
@@ -130,5 +172,22 @@
       transform: translateX(48px);
     }
     
+  }
+
+  .sidemenucontainer{
+    position: relative;
+    margin-left: 2%;
+    width: 3%;
+    height: 50%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    div{
+      height: 18%;
+      width: 100%;
+      background-color: rgb(117, 123, 134);
+    }
   }
 
