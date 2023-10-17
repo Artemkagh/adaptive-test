@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/adaptive-test/static/css/main.5345b9da.css",
+    "main.css": "/adaptive-test/static/css/main.c1dc11aa.css",
     "main.js": "/adaptive-test/static/js/main.79fec7b0.js",
+    "static/media/COMIC.TTF": "/adaptive-test/static/media/COMIC.cf3d8690bffa563fb10b.TTF",
     "static/media/strawicon.svg": "/adaptive-test/static/media/strawicon.317485827151231cc82db90c8c01eef3.svg",
     "static/media/moonicon2.svg": "/adaptive-test/static/media/moonicon2.faf755c49e5e7f8231d0.svg",
     "static/media/sunicon.svg": "/adaptive-test/static/media/sunicon.9b3e62f90ed08b996c07.svg",
@@ -11,11 +12,11 @@
     "static/media/messageicon.svg": "/adaptive-test/static/media/messageicon.ce1a8b0f4bc2e5572e9052d0e375872c.svg",
     "index.html": "/adaptive-test/index.html",
     "static/media/plusicon.svg": "/adaptive-test/static/media/plusicon.f6d37d11910ab05135120c0ccfe18ff7.svg",
-    "main.5345b9da.css.map": "/adaptive-test/static/css/main.5345b9da.css.map",
+    "main.c1dc11aa.css.map": "/adaptive-test/static/css/main.c1dc11aa.css.map",
     "main.79fec7b0.js.map": "/adaptive-test/static/js/main.79fec7b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.5345b9da.css",
+    "static/css/main.c1dc11aa.css",
     "static/js/main.79fec7b0.js"
   ]
 }
