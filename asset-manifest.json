@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/adaptive-test/static/css/main.598505bf.css",
+    "main.js": "/adaptive-test/static/js/main.79fec7b0.js",
+    "static/media/strawicon.svg": "/adaptive-test/static/media/strawicon.317485827151231cc82db90c8c01eef3.svg",
+    "static/media/moonicon2.svg": "/adaptive-test/static/media/moonicon2.faf755c49e5e7f8231d0.svg",
+    "static/media/sunicon.svg": "/adaptive-test/static/media/sunicon.9b3e62f90ed08b996c07.svg",
+    "static/media/quiticon.svg": "/adaptive-test/static/media/quiticon.84d530651cf25ab901599463f7574582.svg",
+    "static/media/socialicon.svg": "/adaptive-test/static/media/socialicon.ec9b5473b580a5a9e511c6c79e5c3471.svg",
+    "static/media/homeicon.svg": "/adaptive-test/static/media/homeicon.f70e446b95d60f7e3cdb0a03cb5ac0e7.svg",
+    "static/media/messageicon.svg": "/adaptive-test/static/media/messageicon.ce1a8b0f4bc2e5572e9052d0e375872c.svg",
+    "index.html": "/adaptive-test/index.html",
+    "static/media/plusicon.svg": "/adaptive-test/static/media/plusicon.f6d37d11910ab05135120c0ccfe18ff7.svg",
+    "main.598505bf.css.map": "/adaptive-test/static/css/main.598505bf.css.map",
+    "main.79fec7b0.js.map": "/adaptive-test/static/js/main.79fec7b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.598505bf.css",
+    "static/js/main.79fec7b0.js"
+  ]
+}
