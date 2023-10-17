@@ -1,4 +1,8 @@
-
+@font-face {
+  font-family: 'Comic Sans MS';
+  src: url("./COMIC.TTF");
+}
+  
   @media (min-width: 1200px) {
     ::-webkit-scrollbar {
       width: 0px;
@@ -1008,7 +1012,7 @@
     .sidemenucontainer{
       position: absolute;
       margin-left: 1%;
-      top: -180%;
+      top: calc(-100vh*0.18);
       width: calc(100vw*0.1);
       height: calc(100vh*0.25);
       display: flex;
